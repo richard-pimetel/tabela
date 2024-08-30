@@ -1,0 +1,60 @@
+/* Define a largura máxima das imagens e mantém a altura proporcional */
+img {
+    max-width: 90%; 
+    height: auto;
+}
+
+/* Define a cor de fundo das linhas da tabela */
+tr {
+    background-color: #f1f1f1; 
+}
+
+/* Define a cor de fundo das linhas pares da tabela para uma alternância de cores */
+tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+/* Estilo para células de cabeçalho: cor de fundo e texto em negrito */
+th {
+    background-color: #f4f4f4; 
+    font-weight: bold; 
+}
+
+/* Define a borda, preenchimento e alinhamento para células de cabeçalho e dados */
+th, td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+/* Define a largura da tabela, colapso das bordas e margem superior */
+table {
+    width: 80%;
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+/* Define a fonte e a margem para o corpo da página */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+
+/* Define o estilo do contêiner da tabela e outros conteúdos */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left; 
+}
+
+/* Define o estilo dos itens de lista, como a posição da lista e alinhamento do texto */
+li {
+    margin: auto;
+    list-style-position: inside;
+    text-align: left;
+}
+
+/* Define o espaçamento inferior para itens de lista dentro de uma seção específica */
+.section-content li {
+    margin-bottom: 10px;
+} 
